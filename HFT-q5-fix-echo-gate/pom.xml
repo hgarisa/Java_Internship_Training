@@ -1,0 +1,61 @@
+<!-- pom.xml (single-module project) -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- >>> REQUIRED COORDINATES <<< -->
+    <groupId>com.example.fix</groupId>
+    <artifactId>fix-echo-gate</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <quickfixj.version>2.3.1</quickfixj.version>
+        <slf4j.version>1.7.36</slf4j.version>
+    </properties>
+
+    <dependencies>
+        <!-- QuickFIX/J engine -->
+        <dependency>
+            <groupId>org.quickfixj</groupId>
+            <artifactId>quickfixj-core</artifactId>
+            <version>${quickfixj.version}</version>
+            <!-- keep SLF4J consistent with 1.7.x -->
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- FIX 4.4 message classes (NewOrderSingle, ExecutionReport, …) -->
+        <dependency>
+            <groupId>org.quickfixj</groupId>
+            <artifactId>quickfixj-messages-fix44</artifactId>
+            <version>${quickfixj.version}</version>
+        </dependency>
+
+        <!-- SLF4J API + simple binding (console) -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+        <!-- Optional (only if you really need it) -->
+        <dependency>
+            <groupId>backport-util-concurrent</groupId>
+            <artifactId>backport-util-concurrent</artifactId>
+            <version>3.1</version>
+        </dependency>
+    </dependencies>
+</project>
