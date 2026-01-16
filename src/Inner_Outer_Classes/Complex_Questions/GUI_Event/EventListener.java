@@ -1,2 +1,7 @@
-package Inner_Outer_Classes.Complex_Questions.GUI_Event;public interface EventListener {
+package Inner_Outer_Classes.Complex_Questions.GUI_Event;
+
+public interface EventListener
+{
+    void onEvent(String eventName);
+
 }

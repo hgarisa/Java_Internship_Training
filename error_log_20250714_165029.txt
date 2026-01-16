@@ -1,0 +1,2 @@
+ERROR - 2025-07-14 10:04:30 - Failed to connect to database
+ERROR - 2025-07-14 10:06:10 - NullPointerException in TaskManager

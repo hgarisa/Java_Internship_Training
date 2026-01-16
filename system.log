@@ -1,0 +1,7 @@
+INFO  - 2025-07-14 10:00:00 - Application started
+INFO  - 2025-07-14 10:01:23 - User login successful: user1
+WARN  - 2025-07-14 10:03:45 - Disk space running low
+ERROR - 2025-07-14 10:04:30 - Failed to connect to database
+INFO  - 2025-07-14 10:05:00 - Scheduled job executed
+ERROR - 2025-07-14 10:06:10 - NullPointerException in TaskManager
+INFO  - 2025-07-14 10:07:50 - User logout: user1

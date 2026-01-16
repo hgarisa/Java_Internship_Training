@@ -1,0 +1,11 @@
+20251011-10:03:18: Session FIX.4.2:MD-SRV->CLIENT schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20251011-10:03:18: Created session: FIX.4.2:MD-SRV->CLIENT
+20251011-10:13:59: Session FIX.4.2:MD-SRV->CLIENT schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20251011-10:13:59: Created session: FIX.4.2:MD-SRV->CLIENT
+20251011-10:14:09: Accepting session FIX.4.2:MD-SRV->CLIENT from /127.0.0.1:58676
+20251011-10:14:09: Acceptor heartbeat set to 30 seconds
+20251011-10:14:09: Received logon
+20251011-10:14:09: Responding to Logon request
+20251011-10:14:19: Received logout request
+20251011-10:14:19: Sent logout response
+20251011-10:14:19: Disconnecting: Received logout request

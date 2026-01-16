@@ -1,0 +1,4 @@
+Monthly Expense Summary Report:
+Travel: $400,00
+Entertainment: $450,00
+Food: $300,75

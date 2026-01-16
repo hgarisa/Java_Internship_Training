@@ -1,0 +1,9 @@
+20251011-10:14:08: Session FIX.4.2:CLIENT->MD-SRV schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20251011-10:14:08: Created session: FIX.4.2:CLIENT->MD-SRV
+20251011-10:14:08: Configured socket addresses for session: [/127.0.0.1:9898]
+20251011-10:14:08: MINA session created: local=/127.0.0.1:58676, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=/127.0.0.1:9898
+20251011-10:14:09: Initiated logon request
+20251011-10:14:09: Received logon
+20251011-10:14:19: Initiated logout request
+20251011-10:14:19: Received logout response
+20251011-10:14:19: Disconnecting: Received logout response

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "TXN001",
+    "type": "Deposit",
+    "amount": 1500.75
+  },
+  {
+    "id": "TXN002",
+    "type": "Withdrawal",
+    "amount": 800.25
+  },
+  {
+    "id": "TXN003",
+    "type": "Transfer",
+    "amount": 420.0
+  }
+]

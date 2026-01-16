@@ -1,0 +1,4 @@
+ID,Type,Amount
+TXN001,Deposit,1500.75
+TXN002,Withdrawal,800.25
+TXN003,Transfer,420.0

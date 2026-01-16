@@ -1,0 +1,2 @@
+Java_Reflection.Plugin_Loader.GreetCommand
+Java_Reflection.Plugin_Loader.TimeCommand

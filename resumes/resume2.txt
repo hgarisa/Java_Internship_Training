@@ -1,0 +1,4 @@
+Name: Hrudhay Reddy Garisa
+Email: hrudhayreddy@gmail.com
+Skills: Python,  Pandas, Machine Learning
+Experience: 3 years at TCS

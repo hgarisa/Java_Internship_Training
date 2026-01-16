@@ -1,0 +1,4 @@
+Name: Harvey Jones
+Email: Hjones@gmail.com
+Skills: JavaScript, React, Node.js, MongoDB
+Experience: 2 years at Cognizant

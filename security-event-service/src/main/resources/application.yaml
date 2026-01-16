@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: security.event.service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/security_event_db
+    username: postgres
+    password: sidemenxix
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    # dialect is optional; Hibernate will auto-detect PostgreSQL
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+

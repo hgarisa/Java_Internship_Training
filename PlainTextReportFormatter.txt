@@ -1,0 +1,4 @@
+Transaction Summary:
+ - ID: TXN001 | Type: Deposit | Amount: $1500.75
+ - ID: TXN002 | Type: Withdrawal | Amount: $800.25
+ - ID: TXN003 | Type: Transfer | Amount: $420.0

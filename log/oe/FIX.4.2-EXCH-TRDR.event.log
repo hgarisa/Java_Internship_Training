@@ -1,0 +1,9 @@
+20251011-14:03:35: Session FIX.4.2:EXCH->TRDR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20251011-14:03:35: Created session: FIX.4.2:EXCH->TRDR
+20251011-14:04:04: Accepting session FIX.4.2:EXCH->TRDR from /127.0.0.1:60043
+20251011-14:04:04: Acceptor heartbeat set to 30 seconds
+20251011-14:04:04: Received logon
+20251011-14:04:04: Responding to Logon request
+20251011-14:04:09: Received logout request
+20251011-14:04:09: Sent logout response
+20251011-14:04:09: Disconnecting: Received logout request

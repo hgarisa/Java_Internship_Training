@@ -1,0 +1,6 @@
+
+101,The Alchemist,Paulo Coelho,299.99,12
+102,Clean Code,Robert Martin,499.50,5
+103,Java Concurrency in Practice,Brian Goetz,599.00,0
+104,Effective Java,Joshua Bloch,549.00,0
+

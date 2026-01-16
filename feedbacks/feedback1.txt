@@ -1,0 +1,5 @@
+Name: Steve Smith
+Department: HR
+Feedback:
+I feel the new onboarding process has really improved.
+However, more training sessions would help.
